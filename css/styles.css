@@ -6,6 +6,15 @@
       background-size: cover;
 }
 
+.bg-image-o{
+	background: url("../img/tram.jpg") no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      opacity: 0.5;
+}
+
 .white-bg{
 	background-color:whitesmoke;
 }
@@ -28,7 +37,25 @@
 	color:grey;
 }
 
+.b-opacity{
+	opacity:0.5;
+}
+
 .image-100{
 	max-width:500px;
 }
 
+.image { 
+   position: relative; 
+   width: 200%%; /* for IE 6 */
+}
+
+h2 { 
+   position: absolute; 
+   top: 700px; 
+   left: 80%; 
+   width: 100%; 
+   color:white;
+   Font-family:"Voga";
+   opacity:0.5;
+}
